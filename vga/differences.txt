@@ -1,0 +1,9 @@
+differences between the lab5 and lab6 video drivers:
+
+lab5                          |lab6
+------------------------------|--------------------------------
+black/white only              |RGB value colors
+x and y coords are inputs     |x and y coords are outputs, respond with color of that pixel
+fixed window size (640x480)   |WIDTH and HEIGHT are parameters, any size up to 640x480
+enable signal to write pixel  |no enable signal, writing is always active
+no usage of other modules     |uses module(s) from the standard library
